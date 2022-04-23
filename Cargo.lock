@@ -11,4 +11,10 @@ name = "outer"
 version = "0.1.0"
 dependencies = [
  "inner",
+ "test-rustdoc",
 ]
+
+[[package]]
+name = "test-rustdoc"
+version = "0.1.0"
+source = "git+https://github.com/vramana/test-rustdoc#16f644357f8e64388dd1cc4c58492785078238cb"

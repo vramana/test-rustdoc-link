@@ -7,3 +7,4 @@ edition = "2021"
 
 [dependencies]
 inner = { path = "../inner" }
+test-rustdoc = { git = "https://github.com/vramana/test-rustdoc" }
